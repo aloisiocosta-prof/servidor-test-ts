@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/aloisiocosta-prof/servidor-test-ts#readme",
   "devDependencies": {
+    "@types/node": "^26.6.4",
     "typescript": "^7.0.2"
   }
 }
