@@ -1,18 +1,24 @@
 {
   "name": "app",
   "version": "1.0.0",
-  "description": "",
+  "description": "demonstração de backend em typescript",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc && node build/index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aloisiocosta-prof/servidor-test-ts.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/aloisiocosta-prof/servidor-test-ts/issues"
+  },
+  "homepage": "https://github.com/aloisiocosta-prof/servidor-test-ts#readme",
   "devDependencies": {
-    "@types/node": "^26.6.4",
-    "prettier": "^3.9.9",
     "typescript": "^7.0.2"
   }
 }
