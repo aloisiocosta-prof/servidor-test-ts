@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 # Created by https://www.toptal.com/developers/gitignore/api/node
 # Edit at https://www.toptal.com/developers/gitignore?templates=node
 
 ### Node ###
+=======
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
 # Logs
 logs
 *.log
@@ -9,7 +12,10 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
+<<<<<<< HEAD
 .pnpm-debug.log*
+=======
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
@@ -61,12 +67,15 @@ web_modules/
 # Optional stylelint cache
 .stylelintcache
 
+<<<<<<< HEAD
 # Microbundle cache
 .rpt2_cache/
 .rts2_cache_cjs/
 .rts2_cache_es/
 .rts2_cache_umd/
 
+=======
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
 # Optional REPL history
 .node_repl_history
 
@@ -78,10 +87,15 @@ web_modules/
 
 # dotenv environment variable files
 .env
+<<<<<<< HEAD
 .env.development.local
 .env.test.local
 .env.production.local
 .env.local
+=======
+.env.*
+!.env.example
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -94,6 +108,10 @@ out
 # Nuxt.js build / generate output
 .nuxt
 dist
+<<<<<<< HEAD
+=======
+.output
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
 
 # Gatsby files
 .cache/
@@ -104,9 +122,24 @@ dist
 # vuepress build output
 .vuepress/dist
 
+<<<<<<< HEAD
 # vuepress v2.x temp and cache directory
 .temp
 
+=======
+# vuepress v2.x temp directory
+.temp
+
+# Sveltekit cache directory
+.svelte-kit/
+
+# vitepress build output
+**/.vitepress/dist
+
+# vitepress cache directory
+**/.vitepress/cache
+
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
 # Docusaurus cache and generated files
 .docusaurus
 
@@ -119,6 +152,7 @@ dist
 # DynamoDB Local files
 .dynamodb/
 
+<<<<<<< HEAD
 # TernJS port file
 .tern-port
 
@@ -142,3 +176,36 @@ dist
 .svelte-kit
 
 # End of https://www.toptal.com/developers/gitignore/api/node
+=======
+# Firebase cache directory
+.firebase/
+
+# TernJS port file
+.tern-port
+
+# Stores Visual Studio Code versions used for testing Visual Studio Code extensions
+.vscode-test
+
+# pnpm
+.pnpm-store
+
+# yarn v3
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# Vite files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+.vite/
+
+# Astro generated types
+.astro/
+
+# Turbo Repo
+.turbo
+>>>>>>> 9af80edfa4ca0b0aad35423742d6769377156395
