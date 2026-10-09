@@ -8,6 +8,7 @@
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
+    "moduleResolution": "nodenext",
     "target": "esnext",
     "types": ["node"],
     // For nodejs:
@@ -16,9 +17,9 @@
     // and npm install -D @types/node
 
     // Other Outputs
-    "sourceMap": true,
-    "declaration": true,
-    "declarationMap": true,
+    //"sourceMap": true,
+    //"declaration": true,
+    //"declarationMap": true,
 
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
@@ -27,9 +28,9 @@
     // Style Options
     // "noImplicitReturns": true,
     // "noImplicitOverride": true,
-       "noImplicitAny":false,
-    // "noUnusedLocals": true,
-    // "noUnusedParameters": true,
+    "noImplicitAny":false,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
 

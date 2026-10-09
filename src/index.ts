@@ -1,7 +1,7 @@
 import http from "node:http";
 
 const hostname = '0.0.0.0';
-const port = process.env.PORT | 3000;
+const port = Number(process.env.PORT) || 3000;
 
 const server = http.createServer((_req,res)=>{
 res.statusCode = 200;
